@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class homework {
     public static void main(String[] args) {
-        Scanner kalan=new Scanner(System.in);
-        System.out.println("ilk sayi");
-        int a=kalan.nextInt();
-        System.out.println("ikinci sayi");
-        int b=kalan.nextInt();
-        System.out.println("kalan");
+        Scanner remainingnumber=new Scanner(System.in);
+        System.out.println("first number");
+        int a=remainingnumber.nextInt();
+        System.out.println("second number");
+        int b=remainingnumber.nextInt();
+        System.out.println("remainingnumber");
         int c=a&b;
         System.out.println(c);
     }
